@@ -6,14 +6,14 @@ const Tools = ({ toolsPromise, carts, setCarts,setActiveTab}) => {
 
   return (
     <div className="py-20 px-10 bg-white">
-      <div className="text-center mb-10">
+      <div className="text-center mb-10  bg-white  ">
         <h2 className="text-5xl font-black text-gray-800">Premium Digital Tools</h2>
         <p className="text-gray-400 mt-3 text-sm max-w-md mx-auto">
           Choose from our collection of premium digital tools designed to boost your productivity.
         </p>
-        <div className="flex justify-center gap-3 mt-6">
+        <div className="flex justify-center gap-3 mt-6  sticky top-30 z-50">
           <button  onClick={() => setActiveTab("tools")} className="btn bg-purple-600 text-white border-none rounded-full px-6">Products</button>
-          <button onClick={() => setActiveTab("cart")}  className="btn btn-outline rounded-full px-6">{`Cart(${carts.length})`}</button>
+          <button onClick={() => setActiveTab("cart")}  className="btn btn-outline rounded-full px-6 ">{`Cart(${carts.length})`}</button>
         </div>
       </div>
 
