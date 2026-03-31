@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <NavBar carts={carts}/>
+      <NavBar carts={carts} setActiveTab={setActiveTab}/>
       <Hero />
       <Start />
 
