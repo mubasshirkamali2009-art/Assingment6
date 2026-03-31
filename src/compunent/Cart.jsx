@@ -2,6 +2,9 @@ import React from "react";
 
 const Cart = ({ carts, setCarts ,setActiveTab}) => {
   const total = carts.reduce((sum, tool) => sum + tool.price, 0);
+const handleCheckOut=()=>{
+  setCarts([])
+}
 
   const handleRemove = (index) => {
     setCarts(carts.filter((_, i) => i !== index));
@@ -22,15 +25,17 @@ const Cart = ({ carts, setCarts ,setActiveTab}) => {
 
       <div className="max-w-2xl mx-auto">
         <h3 className="text-xl font-bold text-gray-800 mb-4">Your Cart</h3>
+        
 
         {carts.length === 0 ? (
-          <p className="text-center text-gray-400 py-10">No items in cart yet.</p>
+        <p className="text-center text-lg font-bold text-gray-500 py-10">Cart is empty</p>
+          
         ) : (
           <div className="flex flex-col gap-3">
             {carts.map((tool, i) => (
               <div key={i} className="flex items-center justify-between border border-gray-100 rounded-xl px-4 py-3 shadow-sm">
                 <div className="flex items-center gap-4">
-                  <img src={tool.image} alt={tool.title} className="h-12 w-12 object-contain bg-gray-50 rounded-lg p-1" />
+                  <img src={tool.image} alt={tool.title} className="h-20 w-20 object-contain bg-gray-50 rounded-lg p-1" />
                   <div>
                     <h4 className="text-sm font-bold text-gray-800">{tool.title}</h4>
                     <p className="text-xs text-gray-400">${tool.price}</p>
@@ -50,7 +55,7 @@ const Cart = ({ carts, setCarts ,setActiveTab}) => {
               <span className="text-lg font-black text-gray-800">${total}</span>
             </div>
 
-            <button className="mt-4 w-full py-4 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-2xl transition-all text-sm">
+            <button onClick={handleCheckOut} className="mt-4 w-full py-4 bg-purple-600 hover:bg-purple-700 text-white font-bold rounded-2xl transition-all text-sm">
               Proceed To Checkout
             </button>
           </div>
