@@ -4,7 +4,7 @@ const ToolCard = ({ tool, carts, setCarts }) => {
   const [isSubscribed, setIsSubscribed] = useState(false);
 
   const handleSubscribe = () => {
-    if (isSubscribed) return;
+    if (isSubscribed) ;
     setIsSubscribed(true);
     setCarts([...carts,tool])
      toast.success("Item added to cart successfully")
@@ -51,7 +51,7 @@ const ToolCard = ({ tool, carts, setCarts }) => {
           onClick={handleSubscribe}
           className={`mt-5 w-full py-3 rounded-xl font-bold text-sm transition-all
             ${isSubscribed
-              ? "bg-gray-200 text-gray-500 cursor-not-allowed"
+              ? "bg-gray-200 text-gray-500  border-2 border-purple-600"
               : "bg-purple-600 text-white hover:bg-purple-700"}`}
         >
           {isSubscribed ? "Subscribed" : "Buy Now"}
