@@ -19,7 +19,7 @@ const handleCheckOut=()=>{
         </p>
         <div className="flex justify-center gap-3 mt-6">
           <button onClick={() => setActiveTab("tools")} className="btn btn-outline rounded-full px-6">Products</button>
-          <button  onClick={() => setActiveTab("cart")} className="btn bg-purple-600 text-white border-none rounded-full px-6">Cart</button>
+          <button  onClick={() => setActiveTab("cart")} className="btn bg-purple-600 text-white border-none rounded-full px-6">{`Cart(${carts.length})`}</button>
         </div>
       </div>
 
