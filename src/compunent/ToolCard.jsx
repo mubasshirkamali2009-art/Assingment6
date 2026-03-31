@@ -1,12 +1,13 @@
 import { useState } from "react";
-
+import { toast } from "react-toastify";
 const ToolCard = ({ tool, carts, setCarts }) => {
   const [isSubscribed, setIsSubscribed] = useState(false);
 
   const handleSubscribe = () => {
     if (isSubscribed) return;
     setIsSubscribed(true);
-    setCarts([...carts,tool]);
+    setCarts([...carts,tool])
+     toast.success("Item added to cart successfully")
   };
 
   return (

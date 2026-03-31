@@ -1,5 +1,5 @@
 import React from "react";
-
+import { toast } from "react-toastify";
 const Cart = ({ carts, setCarts ,setActiveTab}) => {
   const total = carts.reduce((sum, tool) => sum + tool.price, 0);
 const handleCheckOut=()=>{
@@ -8,6 +8,7 @@ const handleCheckOut=()=>{
 
   const handleRemove = (index) => {
     setCarts(carts.filter((_, i) => i !== index));
+    toast.error("Item removed to cart ")
   };
 
   return (
