@@ -13,7 +13,7 @@ const ToolCard = ({ tool, carts, setCarts }) => {
   };
 
   return (
-    <div className="border border-gray-200 rounded-2xl p-5 shadow-md hover:shadow-lg transition-shadow relative bg-white">
+    <div className="hover:scale-105  border border-gray-200 rounded-2xl p-5 shadow-md hover:shadow-lg  relative bg-white transition-all duration-900hover:text-[#C0392B] hover:bg-[#fbddbc] ">
       
       {tool.tag && (
         <div className={`absolute top-3 right-3 text-xs font-bold px-3 py-1 rounded-full
