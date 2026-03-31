@@ -4,7 +4,7 @@ const NavBar = ({carts , setActiveTab}) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <div className='sticky top-0 z-50'>
+        <div className='sticky top-0 z-50 bg-white'>
             <div className="navbar bg-base-100 shadow-sm flex justify-around sm:justify-between">
               <div className="flex">
                 <h1 className="text-purple-600 font-bold text-2xl">DigiTools</h1>

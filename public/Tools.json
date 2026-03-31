@@ -1,110 +1,102 @@
 [
   {
     "id": 1,
-    "title": "Mechanical Keyboard",
-    "description": "Professional mechanical keyboard with Cherry MX switches for ultimate typing experience.",
-    "price": 89,
-    "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/pc-power/pgc801bg13/pgc801bg13-228x228.webp",
-    "badge": "Best Seller",
-    "features": ["Cherry MX switches", "RGB backlight", "Aluminum frame"]
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes in minutes with AI-powered suggestions and ATS optimization.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF", "AI suggestions"],
+    "icon": "📄"
   },
   {
     "id": 2,
-    "title": "Curved Monitor 27\"",
-    "description": "Ultra-wide curved monitor with stunning 4K resolution and 144Hz refresh rate.",
-    "price": 299,
-    "image": "https://www.startech.com.bd/image/cache/catalog/monitor/dell/s2722dgm/s2722dgm-01-500x500.webp",
-    "badge": "Popular",
-    "features": ["4K resolution", "144Hz refresh", "HDR support"]
+    "name": "Design Asset Pack",
+    "description": "Thousands of premium design assets including icons, illustrations, and UI kits.",
+    "price": 49.99,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["5000+ icons", "200+ UI kits", "Figma & Sketch ready", "Lifetime updates"],
+    "icon": "🎨"
   },
   {
     "id": 3,
-    "title": "Gaming Mouse",
-    "description": "High precision gaming mouse with 16000 DPI sensor and ergonomic design.",
-    "price": 59,
-    "image": "https://www.startech.com.bd/image/cache/catalog/mouse/pc-power/pcgmg17/pcgmg17-01-228x228.webp",
-    "badge": "Hot",
-    "features": ["16000 DPI", "6 buttons", "Ergonomic grip"]
+    "name": "SEO Pro Toolkit",
+    "description": "Boost your website rankings with advanced keyword research and competitor analysis tools.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Keyword research", "Competitor analysis", "Backlink tracker", "Rank monitoring"],
+    "icon": "📈"
   },
   {
     "id": 4,
-    "title": "Webcam HD Pro",
-    "description": "1080p HD webcam with autofocus and built-in noise cancelling microphone.",
-    "price": 79,
-    "image": "https://www.startech.com.bd/image/cache/catalog/webcam/redragon/gw910/gw910-01-228x228.webp",
-    "badge": "New",
-    "features": ["1080p 60fps", "Auto focus", "Built-in mic"]
+    "name": "Social Media Scheduler",
+    "description": "Plan, schedule, and auto-post content across all your social media platforms effortlessly.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["10+ platforms", "Auto-scheduling", "Analytics dashboard", "Team collaboration"],
+    "icon": "📱"
   },
   {
     "id": 5,
-    "title": "USB-C Hub 10-in-1",
-    "description": "All-in-one USB-C hub with HDMI, SD card, and 100W power delivery.",
-    "price": 49,
-    "image": "https://www.startech.com.bd/image/cache/catalog/hub/ugreen/cm806/cm806-01-228x228.webp",
-    "badge": "Trending",
-    "features": ["HDMI 4K", "100W PD", "SD card reader"]
+    "name": "Video Editor Pro",
+    "description": "Professional-grade video editing software with AI-powered tools and effects.",
+    "price": 79.99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["4K export", "AI background removal", "500+ effects", "Cloud storage"],
+    "icon": "🎬"
   },
   {
     "id": 6,
-    "title": "SSD 1TB NVMe",
-    "description": "Blazing fast NVMe SSD with 7000MB/s read speeds for ultimate performance.",
-    "price": 99,
-    "image": "https://www.startech.com.bd/image/cache/catalog/ssd/ocpc/mfl-300/mfl-300-01-228x228.webp",
-    "badge": "Best Seller",
-    "features": ["7000MB/s read", "M.2 PCIe 4.0", "5 year warranty"]
+    "name": "Email Marketing Suite",
+    "description": "Send beautiful email campaigns, automate sequences, and track performance in real time.",
+    "price": 24.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Drag & drop editor", "Automation flows", "A/B testing", "Detailed analytics"],
+    "icon": "📧"
   },
   {
     "id": 7,
-    "title": "RAM DDR5 32GB",
-    "description": "High speed DDR5 RAM kit with XMP 3.0 support for gaming and workstations.",
-    "price": 129,
-    "image": "https://www.startech.com.bd/image/cache/catalog/ram/ocpc/pista-ddr5-6000mhz-32gb/pista-ddr5-6000mhz-32gb-01-228x228.webp",
-    "badge": "Popular",
-    "features": ["6000MHz speed", "XMP 3.0", "Low latency"]
+    "name": "Code Snippet Manager",
+    "description": "Organize, search, and reuse your code snippets across all your development projects.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["50+ languages", "VS Code extension", "Team sharing", "Cloud sync"],
+    "icon": "💻"
   },
   {
     "id": 8,
-    "title": "CPU Cooler 240mm",
-    "description": "240mm all-in-one liquid cooler with ARGB fans for Intel and AMD CPUs.",
-    "price": 69,
-    "image": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/corsair/h100/h100-rgb-01-228x228.jpg",
-    "badge": "New Seller",
-    "features": ["240mm AIO", "ARGB fans", "Intel & AMD"]
+    "name": "AI Copywriter",
+    "description": "Generate high-converting copy for ads, landing pages, emails, and social posts instantly.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["30+ content types", "Tone customization", "Plagiarism check", "Multi-language"],
+    "icon": "✍️"
   },
   {
     "id": 9,
-    "title": "Graphics Card RTX 5090",
-    "description": "Next generation RTX graphics card with ray tracing and DLSS 3.0 support.",
-    "price": 549,
-    "image": "https://www.startech.com.bd/image/cache/catalog/graphics-card/msi/geforce-rtx-5090-32g-suprim-soc/geforce-rtx-5090-32g-suprim-soc-06-228x228.webp",
-    "badge": "Hot",
-    "features": ["12GB VRAM", "Ray tracing", "DLSS 3.0"]
-  },
-  {
-    "id": 10,
-    "title": "Wireless Headset",
-    "description": "Premium wireless gaming headset with 7.1 surround sound and 30 hour battery.",
-    "price": 149,
-    "image": "https://www.startech.com.bd/image/cache/catalog/headset/onikuma/x25/x25-01-228x228.webp",
-    "badge": "Trending",
-    "features": ["7.1 surround", "30hr battery", "Noise cancel"]
-  },
-  {
-    "id": 11,
-    "title": "Power Supply 850W",
-    "description": "Fully modular 850W 80+ Gold certified power supply with 10 year warranty.",
-    "price": 119,
-    "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/deepcool/pn850d/pn850d-01-228x228.webp",
-    "badge": "New",
-    "features": ["80+ Gold", "Fully modular", "10yr warranty"]
-  },
-  {
-    "id": 12,
-    "title": "ATX Motherboard",
-    "description": "High end ATX motherboard with PCIe 5.0, WiFi 6E and DDR5 memory support.",
-    "price": 199,
-    "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/z790-eagle-ax/z790-eagle-ax-01-228x228.webp",
-    "badge": "Best Seller",
-    "features": ["PCIe 5.0", "WiFi 6E", "DDR5 support"]
+    "name": "Project Management Hub",
+    "description": "Manage tasks, deadlines, and team collaboration all in one powerful workspace.",
+    "price": 99.99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Kanban & Gantt", "Time tracking", "File sharing", "Unlimited projects"],
+    "icon": "🗂️"
   }
+  
 ]
