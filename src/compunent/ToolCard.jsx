@@ -6,6 +6,11 @@ const ToolCard = ({ tool, carts, setCarts }) => {
   const handleSubscribe = () => {
     if (isSubscribed) ;
     setIsSubscribed(true);
+     const isFound=carts.find(item=>item.id === tool.id)
+    if(isFound){
+      toast.error("Item aiready in cart")
+      return
+    }
     setCarts([...carts,tool])
      toast.success("Item added to cart successfully")
   };
@@ -51,7 +56,7 @@ const ToolCard = ({ tool, carts, setCarts }) => {
           onClick={handleSubscribe}
           className={`mt-5 w-full py-3 rounded-xl font-bold text-sm transition-all
             ${isSubscribed
-              ? "bg-gray-200 text-gray-500  border-2 border-purple-600"
+              ? "bg-gray-200 text-gray-500 "
               : "bg-purple-600 text-white hover:bg-purple-700"}`}
         >
           {isSubscribed ? "Subscribed" : "Buy Now"}
