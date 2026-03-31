@@ -4,6 +4,7 @@ const Cart = ({ carts, setCarts ,setActiveTab}) => {
   const total = carts.reduce((sum, tool) => sum + tool.price, 0);
 const handleCheckOut=()=>{
   setCarts([])
+  toast.success("Checkout Out Successfull ")
 }
 
   const handleRemove = (index) => {
